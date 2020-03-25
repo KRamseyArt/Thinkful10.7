@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="parkFinder">
+        <fieldset>
+            <legend>Search Parks</legend>
+            <label for="parkstate">Park State:</label>
+            <input type="text" id="parkstate" name="parkstate">
+
+            <label for="number">Max Results</label>
+            <input type="number" id="number" name="number">
+
+                <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+    <section class="hidden">
+        <ul id="results">
+        </ul>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
