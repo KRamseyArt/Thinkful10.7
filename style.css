@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2020%2F01%2Fglacier-national-park-GLACIERSIGNS0120.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
+}
+
+
+#parkFinder fieldset {
+    border-radius: 25px;
+    max-width: 480px;
+    background: darkgreen;
+    border: 2px solid springgreen;
+}
+#parkFinder legend {
+    background: springgreen;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+#parkFinder label {
+    color: white;
+}
+#parkFinder input {
+    display: block;
+    border-radius: 10px;
+    border: none;
+}
+#parkstate, #number {
+    background: white;
+    margin: 10px auto;
+    padding: 10px;
+}
+#submit-btn {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background: springgreen;
+    width: 100px;
+}
+#submit-btn:hover {
+    background: white;
+}
+
+#results {
+    padding-left: 0;
+}
+#results li{
+    background: white;
+    margin: 10px auto;
+    padding: 10px;
+    list-style-type: none;
+    border: 2px solid springgreen;
+    border-radius: 20px;
+    max-width: 480px;
+}
+.park-title {
+    color: darkgreen;
+}
+.park-address {
+    color: springgreen;
+}
+.park-desc {
+    color: gray;
+}
+.learn-more {
+    color: darkgreen;
+    text-decoration: none;
+}
+.learn-more:hover {
+    color: springgreen;
+}

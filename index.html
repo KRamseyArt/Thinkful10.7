@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Thinkful 10.7 | Search Parks by State</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form id="parkFinder">
         <fieldset>
-            <legend>Search Parks</legend>
+            <legend>Find Parks By State ID</legend>
             <label for="parkstate">Park State:</label>
             <input type="text" id="parkstate" name="parkstate">
 
             <label for="number">Max Results</label>
-            <input type="number" id="number" name="number">
+            <input type="number" id="number" min="0" name="number">
 
-                <input type="submit" value="Submit">
+            <input type="submit" id="submit-btn" value="Submit">
         </fieldset>
     </form>
 
